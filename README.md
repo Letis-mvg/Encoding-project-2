@@ -7,7 +7,7 @@ Drawing on both lessons taught at school and the **TEI guidelines**. Our work th
 
 ***Sources***
 
-To achieve this, we encode three poems by *Victor Hugo*, *Charles Baudelaire*, and *Paul Verlaine*, selected from digital reproductions available on Gallica (Bibliothèque nationale de France). Each file is structured according to the basic TEI schema (for texts in reverse), comprising a <teiHeader> up to the <text>. We therefore have the title, author, source, ARK identifier, language, date and description.
+To achieve this, we encode three poems by *Victor Hugo* (**L'Oeuvre poétique**), *Charles Baudelaire* (**Les Fleurs du mal**), and *Paul Verlaine* (**Poèmes saturniers**), selected from digital reproductions available on Gallica. Each file is structured according to the basic TEI schema (for texts in reverse), comprising a <teiHeader> up to the <text>. We therefore have the title, author, source, ARK identifier, language, date and description.
 
 ***Encoding approach and principles***
 
