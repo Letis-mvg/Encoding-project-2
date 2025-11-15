@@ -13,7 +13,8 @@ To achieve this, we encode three poems by *Victor Hugo*, *Charles Baudelaire*, a
 
 **Metadata encoding**
 
-We have he title of the collection  <titleStmt>, the author <author>, the person who encodes <respStmt>, the publication information <publicationStmt>, the source <sourceDesc>.
+We have: title of the collection `<titleStmt>`, the author `<author>`, the person who encodes `<respStmt>`, the publication information `<publicationStmt>`, the source `<sourceDesc>`
+
 
 **Structure of the body of the poem**
 
