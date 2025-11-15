@@ -13,7 +13,7 @@ To achieve this, we encode three poems by *Victor Hugo* (**L'Oeuvre poétique**)
 
 **Metadata encoding**
 
-We have: title of the poem `<titleStmt>`, the author `<author>`, the person who encodes `<respStmt>`, the publication information `<publicationStmt>`, the source `<sourceDesc>` (`<bibl>` containing the title of the collection).
+We have: title of the poem `<titleStmt>`, the author `<author>`, the person who encodes `<respStmt>`, information about TEI document `<publicationStmt>` `<availability>` with attributes`"p"` and `<idno>`, the source `<sourceDesc>` (`<bibl>` containing the title of the collection).
 
 
 **Structure of the body of the poem**
