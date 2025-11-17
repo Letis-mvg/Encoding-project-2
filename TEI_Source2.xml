@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fr">APRÈS TROIS ANS</title>  <!-- The author's name does not appear on the document we are encoding -->
+            <respStmt>
+               <resp>encoded by</resp>
+               <persName>
+                  <surname>Mvondo Mvogo</surname>
+                  <forename>Léticia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <!-- Information about the poem -->
+         
+         <publicationStmt>
+            <publisher>Édition Lemerre</publisher>
+            <availability status="free"> 
+               <p>
+                  Available on Gallica, at the Bibliothèque nationale de France
+               </p>
+            </availability>
+         </publicationStmt>
+         
+         <!-- Information about the sources of the encoded document ; This information is not in the document, but to understand the encoding and facilitate our work, we took it from the Gallica website.-->
+         
+         <sourceDesc>
+               <bibl>
+                  <title>Poèmes saturniens</title>
+                  <author>Paul Verlaine</author>
+                  <publisher>Léon Varnier</publisher>
+                  <pubPlace>Paris</pubPlace>
+                  <date>1890</date>
+                  <idno type="ARK">https://gallica.bnf.fr/ark:/12148/bpt6k70860g/f261.item#</idno>
+               </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <!-- Description of the body of the poem, including epigraph, tropes, verses, and rhymes -->
+   
+   <text>
+      <body>
+         <div type="poem" n="III">
+            <head>Poèmes saturniens</head>
+            
+            <!-- The rhymes also follow each other, so we have ABBA, the stanzas are of the quatrain type-->
+            
+            <lg type="quatrain">
+               <l n="1" rhyme="A">Ayant poussé la porte étroite qui chancelle,</l>
+               <l n="2" rhyme="B">Je me suis promené dans le petit jardin</l>
+               <l n="3" rhyme="B">Qu'éclairait doucement le soleil du matin,</l>
+               <l n="4" rhyme="A">Pailletant chaque fleur d'une humide étincelle.</l>
+            </lg>
+            
+            <!-- The rhymes also follow each other, so we have CDDC, the stanzas are of the quatrain type-->
+            
+            <lg type="quatrain">
+               <l n="1" rhyme="C">Rien n'a changé. J'ai tout revu : l'humble tonnelle</l>
+               <l n="2" rhyme="D">De vigne folle avec les chaises de rotin...</l>
+               <l n="3" rhyme="D">Le jet d'eau fait toujours son murmure argentin</l>
+               <l n="4" rhyme="C">Et le vieux tremble sa plainte sempiternelle.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
